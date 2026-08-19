@@ -46,3 +46,11 @@ def process_user_data(raw_name, birthyear):
 result = process_user_data("   aLEXANder  ", "2000")
 print(result)
     
+
+
+scores = [("Alice", 85), ("Bob", 92), ("Charlie", 78)]
+
+# Sort by the second element (score at index 1)
+sorted_scores = sorted(scores, key=lambda item: item[1])
+
+print(sorted_scores)
