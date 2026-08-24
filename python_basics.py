@@ -41,3 +41,25 @@
 
 # result = grade(95)
 # print(result)
+
+
+# Create a function:
+# count_vowels(text)
+
+# It should:
+# Take a string
+# Count the vowels (a, e, i, o, u)
+# Handle uppercase letters too
+# Return the number of vowels
+
+
+def count_vowels(name):
+    vowels = "aeiou"
+    count = 0
+
+    for i in name.lower():
+        if i in vowels:
+            count += 1
+    return count
+    
+print(count_vowels("Hello World"))
