@@ -87,11 +87,32 @@
 # r → 2
 
 
-n = "banana"
-freq = {}
-for i in n:
-    if i in freq:
-        freq[i] += 1
+# n = "banana"
+# freq = {}
+# for i in n:
+#     if i in freq:
+#         freq[i] += 1
+#     else:
+#         freq[i] = 1
+# print(max(freq))
+
+
+
+
+# Q1 — Count vowels
+# Take a string from the user and count the number of vowels
+
+s = input("Enter the String : ")
+vowels_ = "aeiou"
+vowels = 0
+consonants = 0
+
+for i in s :
+    if i in vowels_:
+        vowels += 1
+    elif i.isalpha():
+        consonants += 1
     else:
-        freq[i] = 1
-print(max(freq))
+        pass
+print(vowels)
+print(consonants)
