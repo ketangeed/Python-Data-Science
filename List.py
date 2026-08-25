@@ -102,3 +102,51 @@
 #         minimum = i 
         
 # print(minimum)
+
+
+
+# now  find both max and min..
+
+
+# temperatures = [32, 35, 31, 38, 36, 34, 39, 33]
+# maximum = temperatures[0]
+# minimum = temperatures[0]
+# for i in temperatures:
+#     if i > maximum:
+#         maximum = i
+#     if minimum > i:
+#         minimum = i
+# print(f"Maximum : {maximum}")
+# print(f"Minimun : {minimum}")
+
+
+
+# find how many students have scored more than an average...
+
+# marks = [80, 65, 90, 75, 85, 40, 95, 60]
+# summ = 0
+# count = 0
+# for i in marks:
+#     summ += i
+# total = summ
+# avg = total / len(marks)
+
+# for i in marks : 
+#     if i > avg :
+#         count += 1
+
+# print(count)
+# print(summ)
+# print(avg)
+
+
+
+# data cleaning :
+
+marks = [85, -10, 72, 105, 90, 67, -5, 88]
+clean_marks = []
+
+for i in marks:
+    if i >= 0 and i <= 100 :
+        clean_marks.append(i)
+print(clean_marks)
