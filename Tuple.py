@@ -20,53 +20,32 @@
 
 
 
+# Given:
+# data = (10, 20, 30, 20, 40, 20, 50)
+# Find:
+# How many times 20 occurs.
+# The position of the first 20.
 
-# records = [("Alice", 88), ("Bob", 95), ("Charlie", 72), ("Diana", 90)]
+# data = (10, 20, 30, 20, 40, 20, 50)
 
-# names = [i[0] for i in records]
-# print(names)
-
-
-# for i in records:
-#     if i[1] >= 90:
-#         print(i)
-# records.append("k", 90)
-
+# print(data.count(20))
+# print(data.index(20))
 
 
-# movies = [
-#     ("Inception",2010, 8.8),
-#     ("The Matrix",1999, 8.7),
-#     ("Interstellar",2014, 8.6)
-# ]
+# convert tuple into list modify it and again convert it to tuple..
 
-# movie_name = [i[1] for i in movies]
-# print(movie_name[1])
-# movies.append(("Avatar", 2009, 7.9))
-# print(movies)
+data = (10, 20, 30, 40, 50)
 
+d = list(data)
 
-# for name in movies:
-#     if name[1] > 2000 :
-#         print(name[0])
+d[2] = 35
+
+data_ = tuple(d)
+print(data_)
 
 
 
-
-inventory = [
-    ("Laptop", 1000, 5),
-    ("Mouse", 25, 50),
-    ("Keyboard", 45, 0)
-]
-
-restock = [i[1] for i in inventory]
-restock[2] = 60
-print(restock)
-
-for i in inventory:
-    if i[2] == 0:
-        print(i[0])
-
-price = [i[1]*i[2] for i in inventory]
-print(price)
-print(sum(price))
+# store the tuple values..
+data = ("Ketan", 20, "AIML")
+name, age, branch = data
+print(f"Name : {name}\nAge : {age}\nBranch : {branch}")
