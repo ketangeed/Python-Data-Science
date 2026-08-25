@@ -1,4 +1,4 @@
-#  lambda arguments: expression
+# lambda arguments: expression
 # ex..
 # a = lambda x : x**2
 # print(a(5))
@@ -6,9 +6,10 @@
 # and x ** 2 is output(expression)
 
 # this will return True/False
+
 # b = lambda x: x > 50
 # print(b(70)) # ...True
-
+ 
 
 
 # q. take lambd function and return its cube..
@@ -38,7 +39,7 @@
 #  add 5 to evry number :
  
 
-numbers = [10, 20, 30, 40, 50]
+# numbers = [10, 20, 30, 40, 50]
 
-add = list(map(lambda x : x + 5, numbers))
-print(add)
+# add = list(map(lambda x : x + 5, numbers))
+# print(add)
