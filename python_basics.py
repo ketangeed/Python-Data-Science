@@ -198,3 +198,52 @@
 
 
 
+# def operation(choice):
+#     match choice.lower():
+#         case "mean":
+#             return "You Selected Mean..."
+#         case "median":
+#             return "You Selected Median..."
+#         case "mode":
+#             return "You Selected Mode..."
+#         case _:
+#             return "Invalid..."
+# op = operation("meaN")
+# print(op)
+
+
+
+# f-string
+
+# name = "Ketan"
+# score = 87
+# subject = "Python"
+
+# print(f"{name} scored {score} in {subject}.")
+
+# names = "Ketan"
+# scores = 87.45678
+# print(f"{name} score {scores:.2f} marks.")
+
+
+
+# Loop idx numbering...
+
+# text = "Python"
+# position = 0
+# for i in text:
+#     print(f"{i} = {position}")
+#     position += 1
+
+# while loop :
+password = "python123"
+n = ""
+while n != password:
+
+    n = input("Enter the Password : ")
+    if n == password:
+        print("Correct Password...")
+
+    else:
+        print("Try Again...")
+
