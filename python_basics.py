@@ -143,16 +143,58 @@
 
 # filter even
 
-numbers = [12, 5, 8, 21, 30, 7, 16, 3]
+# numbers = [12, 5, 8, 21, 30, 7, 16, 3]
 
-def filter_even(list1):
-    even_num = []
-    for num in list1:
-        if num % 2 == 0:
-            even_num.append(num)
-        else:
-            continue
-    return even_num
+# def filter_even(list1):
+#     even_num = []
+#     for num in list1:
+#         if num % 2 == 0:
+#             even_num.append(num)
+#         else:
+#             continue
+#     return even_num
 
-n = filter_even(numbers)
-print(n)
+# n = filter_even(numbers)
+# print(n)
+
+
+
+
+
+# Create a list, clean it in function and remove the duplicate and return it...
+# data = ["Python", "java", "PYTHON", "C++", "python", "Java"]
+
+# def normalize_lang(d):
+#     cleaned_data = []
+#     # seen = set()
+#     for i in d:
+#         cleaned = i.lower()
+#         if cleaned not in cleaned_data:
+#             # seen.add(cleaned)
+#             cleaned_data.append(cleaned)
+#         else:
+#             continue
+#     return cleaned_data
+    
+# da = normalize_lang(data)
+# print(da)
+
+
+
+
+# Match Case : 
+
+# n = input("Enter the Mean/Median/Mode : ")
+
+# match n.lower():
+#     case "mean":
+#         print("You Selected Mean...")
+#     case "median":
+#         print("You Selected Median...")
+#     case "mode":
+#         print("You Selected Mode...")
+#     case _:
+#         print("Invalid...")
+
+
+
