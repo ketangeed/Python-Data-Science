@@ -2,16 +2,7 @@
 # d2 = {"c": 3, "d": 4}
 
 # d1.update(d2)
-
 # print(d1)
-
-
-
-
-
-
-
-
 
 # word = "programming"
 
@@ -24,8 +15,6 @@
 #         count[char] = 1
 
 # print(count)
-
-
 
 
 # students = {
@@ -63,16 +52,99 @@
 
 
 # sqr = {}
-
 # for i in range(1, 11):
 #     square = i ** 2
 #     sqr[i] = square
 # print(sqr)
 
 
-d = {"a": 10, "b": 20, "c": 30, "d": 40}
-a = 0
-for i in d.values():
-    a += i
-    b = a/4
-print(b)
+
+
+# access the keys without loop:
+
+# student = {
+#     "name": "Ketan",
+#     "age": 20,
+#     "branch": "AIML",
+#     "marks": 87
+# }
+
+# print(student["name"])
+# print(student["age"])
+
+
+# change the marks form 75 to 90..
+# and add key grade to A
+# student = {
+#     "name": "Ketan",
+#     "age": 20,
+#     "marks": 75
+# }
+
+# student["marks"] = 90
+# student["grade"] = "A"
+# print(student)
+
+
+# print the name of the students who scored 80 or above:
+# students = {
+#     "Ketan": 85,
+#     "Rahul": 72,
+#     "Amit": 91,
+#     "Priya": 65,
+#     "Rohan": 88
+# }
+
+# for name, mark in students.items():
+#     if mark >= 80:
+#         print(name)
+#     else:
+#         continue
+
+
+# count how many times the fruit appears...
+# data = ["apple", "banana", "apple", "orange", "banana", "apple"]
+# count = {}
+
+# for fruit in data:
+#     if fruit in count:
+#         count[fruit] += 1
+#     else:
+#         count[fruit] = 1
+# print(count)
+
+
+
+# max_count = 0
+# most_freq = ""
+
+# for fruit, frequency in count.items():
+#     if frequency > max_count:
+#         max_count = frequency
+#         most_freq = fruit
+# print(most_freq)
+
+
+
+
+# Print the name of the student with marks above 80..
+students = {
+    "Ketan": {
+        "age": 20,
+        "marks": 85
+    },
+    "Rahul": {
+        "age": 21,
+        "marks": 72
+    },
+    "Amit": {
+        "age": 20,
+        "marks": 91
+    }
+}
+
+for name, bio in students.items():
+    if bio["marks"] >= 80:
+        print(name)
+    else:
+        continue
