@@ -3,7 +3,12 @@ class Student:
         self.name = name
         self.marks = marks
     def intro (self):
-        return f"Name : {self.name}\nMarks : {self.marks}"
+        return f"{self.name} = {self.marks}"
 s1 = Student("Ketan", 85)
 print(s1.intro())
 
+s2 = Student("Rahul", 72)
+print(s2.intro())
+
+s3 = Student("Amit", 91)
+print(s3.intro())
