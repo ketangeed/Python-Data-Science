@@ -30,3 +30,24 @@ print(c)
 
 # here x ** 2 is expression ...
 # x >= 60 is the condition ...
+
+
+
+# with if else...
+
+marks = [35, 45, 72, 28, 90, 39]
+
+# Create a list called result where:
+# marks >= 40 → "Pass"
+# marks < 40 → "Fail"
+# Use list comprehension with if-else.
+
+result = ["pass" if x >= 40 else "fail" for x in marks]
+print(result)
+
+
+
+# print the table of 2 in table list
+
+table = [2 *x for x in range(1, 11)]
+print(table)
