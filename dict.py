@@ -150,15 +150,66 @@
 #         continue
 
 
+# student = {
+#     "name": "Ketan",
+#     "marks": 85,
+#     "branch": "AIML",
+#     "age": 20
+# }
+
+# student = {
+#     "name": "Ketan",
+#     "marks": 85,
+#     "branch": "AIML",
+#     "age": 20
+# }
+
+
+
+
+
+# student = {
+#     "name": "Ketan",
+#     "marks": 85
+# }
+
+
+# student.update({"age" : 20})
+# student.update({"marks" : 90})
+# print(student)
+
+
+# to remove the value
+# s = student.pop("age")
+# print(student)
+# print(s)
+
+# removed = student.popitem()
+# print(removed)
+# print(student)
+
+
+
+# student = {
+#     "name": "Ketan",
+#     "marks": 90
+# }
+
+# Create a copy called student2.
+# Change student2["marks"] to 100.
+# Print both dictionaries.
+
+# student2 = student.copy()
+# student2["marks"] = 100
+# print(student)
+# print(student2)
+
 
 student = {
     "name": "Ketan",
-    "marks": 85,
-    "branch": "AIML",
-    "age": 20
+    "marks": 90
 }
 
-
-print(student.keys())
-print(student.values())
-print(student.get("marks"))
+age = student.setdefault("age", 21)
+print(age)
+print(student)
