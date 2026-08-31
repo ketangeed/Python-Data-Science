@@ -128,23 +128,37 @@
 
 
 # Print the name of the student with marks above 80..
-students = {
-    "Ketan": {
-        "age": 20,
-        "marks": 85
-    },
-    "Rahul": {
-        "age": 21,
-        "marks": 72
-    },
-    "Amit": {
-        "age": 20,
-        "marks": 91
-    }
+# students = {
+#     "Ketan": {
+#         "age": 20,
+#         "marks": 85
+#     },
+#     "Rahul": {
+#         "age": 21,
+#         "marks": 72
+#     },
+#     "Amit": {
+#         "age": 20,
+#         "marks": 91
+#     }
+# }
+
+# for name, bio in students.items():
+#     if bio["marks"] >= 80:
+#         print(name)
+#     else:
+#         continue
+
+
+
+student = {
+    "name": "Ketan",
+    "marks": 85,
+    "branch": "AIML",
+    "age": 20
 }
 
-for name, bio in students.items():
-    if bio["marks"] >= 80:
-        print(name)
-    else:
-        continue
+
+print(student.keys())
+print(student.values())
+print(student.get("marks"))
